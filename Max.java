@@ -7,7 +7,7 @@ public class Max {
             if (arr[i] > Max) Max = arr[i];
         }
         System.out.print("Максимальный элемент массива arr = {");
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 1; i < arr.length - 1; i++) {
             System.out.print(arr[i]);
             System.out.print(", ");
         }
